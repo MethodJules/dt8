@@ -1,0 +1,65 @@
+uuid: e0191cee-f301-4d11-aa57-162fab8319e4
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.node.methode.body
+    - field.field.node.methode.field_beispiel
+    - field.field.node.methode.field_phase
+    - field.field.node.methode.field_raum
+    - field.field.node.methode.field_skizze
+    - field.field.node.methode.field_video
+    - node.type.methode
+  module:
+    - image
+    - text
+    - user
+    - video_embed_field
+id: node.methode.default
+targetEntityType: node
+bundle: methode
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_beispiel:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_skizze:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_video:
+    weight: 4
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_phase: true
+  field_raum: true
+  langcode: true

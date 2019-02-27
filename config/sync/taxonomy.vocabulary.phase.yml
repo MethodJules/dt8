@@ -1,0 +1,9 @@
+uuid: 9be759f6-8e11-40ed-8421-9d09e5620b7d
+langcode: de
+status: true
+dependencies: {  }
+name: Phase
+vid: phase
+description: ''
+hierarchy: 0
+weight: 0

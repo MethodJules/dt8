@@ -1,0 +1,9 @@
+uuid: c4c0a83e-d9a7-4dfc-a52a-33a4ca386cf5
+langcode: de
+status: true
+dependencies: {  }
+name: Räume
+vid: raeume
+description: 'Räume im Design Thinking'
+hierarchy: 0
+weight: 0

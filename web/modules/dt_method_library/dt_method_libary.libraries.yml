@@ -1,0 +1,9 @@
+dt_method-libary:
+  version: 1.x
+  js:
+    js/dt_method_library.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings

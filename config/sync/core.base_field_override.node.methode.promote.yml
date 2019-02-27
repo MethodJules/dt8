@@ -1,0 +1,22 @@
+uuid: ec5edbed-0261-43f0-867a-3b0d61a17694
+langcode: de
+status: true
+dependencies:
+  config:
+    - node.type.methode
+id: node.methode.promote
+field_name: promote
+entity_type: node
+bundle: methode
+label: 'Auf der Startseite anzeigen'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean

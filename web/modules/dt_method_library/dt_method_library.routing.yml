@@ -1,0 +1,6 @@
+dt_method_library.show_methods:
+  path: '/dt/method/library'
+  defaults:
+    _controller: 'Drupal\dt_method_library\Controller\DTMethodLibraryController::showMethods'
+  requirements:
+    _permission: 'access content'

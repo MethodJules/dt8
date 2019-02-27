@@ -1,0 +1,14 @@
+uuid: f03f3577-df3d-484e-b105-d886f688a791
+name: 'Design Thinking Library'
+mail: hoferj@uni-hildesheim.de
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /dt/front
+admin_compact_mode: false
+weight_select_max: 100
+langcode: de
+default_langcode: de
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

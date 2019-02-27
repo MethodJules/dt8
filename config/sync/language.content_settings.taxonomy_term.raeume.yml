@@ -1,0 +1,11 @@
+uuid: 82b0d50d-c7a9-4231-b0a1-a26c72c527dd
+langcode: de
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.raeume
+id: taxonomy_term.raeume
+target_entity_type_id: taxonomy_term
+target_bundle: raeume
+default_langcode: site_default
+language_alterable: false

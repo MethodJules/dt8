@@ -1,0 +1,7 @@
+test_twig.page:
+  path: '/test_twig'
+  defaults:
+    _title: 'Test Twig'
+    _controller: 'Drupal\test_twig\Controller\TestTwigController::content'
+  requirements:
+    _permission: 'access content'

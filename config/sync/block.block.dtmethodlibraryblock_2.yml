@@ -1,0 +1,26 @@
+uuid: 2d325d05-1259-447e-bd17-4813518ef935
+langcode: de
+status: true
+dependencies:
+  module:
+    - dt_method_library
+    - system
+  theme:
+    - showcase_lite
+id: dtmethodlibraryblock_2
+theme: showcase_lite
+region: sidebar_second
+weight: -7
+provider: null
+plugin: dt_method_library_block
+settings:
+  id: dt_method_library_block
+  label: 'DT Method Library Block'
+  provider: dt_method_library
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /dt/front
+    negate: false
+    context_mapping: {  }

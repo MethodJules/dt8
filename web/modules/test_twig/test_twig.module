@@ -1,0 +1,22 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: julien
+ * Date: 20.12.18
+ * Time: 21:14
+ */
+
+/**
+ * @param $existing
+ * @param $type
+ * @param $theme
+ * @param $path
+ * @return array
+ */
+function test_twig_theme($existing, $type, $theme, $path) {
+    return [
+        'my_template' => [
+            'variables' => ['test_var' => NULL],
+        ],
+    ];
+}
