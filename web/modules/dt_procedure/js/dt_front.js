@@ -363,7 +363,9 @@
                     ' z';
 
                 })
-                    .style("fill", "#8F56B2");
+                .style("fill", "#8F56B2")
+                .on('click', function() {handleClick("problemraum", "divergent")});
+
             var triangle2 = erstePhaseKonvergentGroup.append('path')
                 .attr('d', function (d) {
                     return 'M ' + 215 + ' ' + 228 +
@@ -372,7 +374,9 @@
                         ' z';
 
                 })
-                .style("fill", "#783D99");
+                .style("fill", "#783D99")
+                .on('click', function() {handleClick("problemraum", "konvergent")});
+
             var triangle3 = zweitePhaseDivergentGroup.append('path')
                 .attr('d', function (d) {
                     return 'M ' + 648 + ' ' + 228 +
@@ -381,7 +385,9 @@
                         ' z';
 
                 })
-                .style("fill", "#446F95");
+                .style("fill", "#446F95")
+                .on('click', function() {handleClick("lösungsraum", "divergent")});
+
             var triangle4 = zweitePhaseKonvergentGroup.append('path')
                 .attr('d', function (d) {
                     return 'M ' + 648 + ' ' + 228 +
@@ -390,7 +396,9 @@
                         ' z';
 
                 })
-                .style("fill", "#335E87");
+                .style("fill", "#335E87")
+                .on('click', function() {handleClick("lösungsraum", "konvergent")});
+
             var triangle5 = drittePhaseDivergentGroup.append('path')
                 .attr('d', function (d) {
                     return 'M ' + 1081 + ' ' + 228 +
@@ -423,7 +431,7 @@
 
 
     function handleClick(room, phase) {
-        alert(room);
+        //alert(room);
 
 
         $.ajax({
